@@ -1,1 +1,7 @@
-# Operating-System
+//Question <br>
+<b>Design a scheduler with multilevel queue having two queues which will schedule the processes on the basis of  pre-emptive shortest remaining processing time first algorithm (SROT) followed by a scheduling in which each process will get 2 units of time to execute. Also note that queue 1 has higher priority than queue 2.  Consider the following set of processes (for reference)with their arrival times and the CPU burst times in milliseconds.
+Calculate the average turnaround time and average waiting time for each process. The input for number of processes  and their arrival time, burst time should be given by the user.</b>
+
+DESCRIPTION<br>
+In the given problem we design a scheduler with Multilevel Queue having two queues SORT and Round Robin(RR). These queues schedule the process on the basis of pre-emptive shortest remaining process time first algorithm. It means that the process having the smallest execution time is chosen for the next execution. Although a process with short burst time begins, the current process is removed or pre-empted from execution, and the job which is sorter is executed first. By following the schedulling we have also given that each process will have 2sec time to execute the process. After 2sec CPU will switch to next process. It is also given that Q1 has higher priority then Q2 it means firstly execute Q1 then Q2.
+This program contains the concept of MULTILEVEL QUEUE, SHORTEST JOB FIRST, ROUND ROBIN and PRIORITY algorithm.
